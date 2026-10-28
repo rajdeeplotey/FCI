@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="247" y1="66" x2="492" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#f9f6f1"/>
+    </linearGradient>
+    <linearGradient id="pen" x1="545" y1="174" x2="603" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173a59"/>
+      <stop offset=".52" stop-color="#0f2c47"/>
+      <stop offset="1" stop-color="#071c30"/>
+    </linearGradient>
+    <filter id="shadow" x="170" y="22" width="454" height="478" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="background"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="alpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="15"/>
+      <feComposite in2="alpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 .25 0 0 0 0 .3 0 0 0 0 .35 0 0 0 .12 0"/>
+      <feBlend in2="background"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <g opacity=".58">
+    <path d="M440 497h340v103H440z" fill="#e9e5dc"/>
+    <path d="M450 497v-56h20v56m8 0v-82h23v82m9 0v-44h18v44m7 0v-69h26v69m8 0v-99h30v99m8 0v-58h22v58m9 0v-77h27v77m8 0v-43h19v43m8 0v-90h28v90m8 0v-61h22v61m9 0v-76h24v76m9 0v-49h18v49" fill="#e9e5dc"/>
+    <path d="M440 497h340" stroke="#d5d0c6" stroke-width="2"/>
+    <path d="m660 407 10-38 10 38h-5v15h-10v-15h-5Zm-2 15h24v8h-24zm4 8h16v66h-16zm-5 22h26v5h-26zm3 18h20v5h-20z" fill="#d5d0c6"/>
+    <path d="M0 534c115-18 209-14 309 0s198 15 306 1 122-13 165-8" stroke="#e2ddd4" stroke-width="2"/>
+  </g>
+
+  <circle cx="396" cy="226" r="208" fill="#f8e8e5" opacity=".68"/>
+  <circle cx="396" cy="226" r="178" fill="#fff4f0" opacity=".52"/>
+
+  <path d="M108 327c-72-31-79-93-34-117 44-23 99 10 152 40 86 49 160 79 263 88 97 8 178-20 237-70 33-28 45-52 29-65-13-11-34-5-52 8" stroke="#b51f2c" stroke-linecap="round" stroke-width="2"/>
+
+  <g transform="translate(691 161) scale(.012)" fill="#b51f2c">
+    <path d="m2490 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/>
+  </g>
+  <g transform="translate(114 227) scale(.0075)" fill="#b51f2c" opacity=".72">
+    <path d="m2490 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="m264 54 256 30-39 352-256-30z" fill="#153754"/>
+    <path d="m236 70 267 29-39 351-267-29z" fill="url(#paper)"/>
+    <path d="m236 70 267 29-39 351-267-29z" stroke="#f1eee9" stroke-width="2"/>
+    <path d="m270 110 72 8-5 44-72-8z" fill="#fbf0ed"/>
+    <g transform="translate(281 112) scale(.008)" fill="#b51f2c">
+      <path d="m2490 4430-45-863a95 95 0 0 1 111-98l859 151-116-320a65 65 0 0 1 20-73l941-762-212-99a65 65 0 0 1-34-79l186-572-542 115a65 65 0 0 1-73-38l-105-247-423 454a65 65 0 0 1-111-57l204-1052-327 189a65 65 0 0 1-91-27l-332-652-332 652a65 65 0 0 1-91 27l-327-189 204 1052a65 65 0 0 1-111 57l-423-454-105 247a65 65 0 0 1-73 38l-542-115 186 572a65 65 0 0 1-34 79l-212 99 941 762a65 65 0 0 1 20 73l-116 320 859-151a95 95 0 0 1 111 98l-45 863z"/>
+    </g>
+    <text x="278" y="202" fill="#17344f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" transform="rotate(6 278 202)">Canada</text>
+    <text x="276" y="227" fill="#17344f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" transform="rotate(6 276 227)">Spouse Visa</text>
+    <text x="274" y="252" fill="#17344f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" transform="rotate(6 274 252)">Application</text>
+    <path d="m274 278 156 17m-159-1 126 14m-129 5 151 16m-154 7 76 8m-79 9 145 16m-148-3 123 13m-126 5 114 12" stroke="#d8d9d9" stroke-linecap="round" stroke-width="8"/>
+  </g>
+
+  <g transform="rotate(18 562 301)">
+    <path d="m556 167 14-9 13 10-3 215-12 32-12-32z" fill="url(#pen)"/>
+    <path d="m556 167 14-9 13 10-1 14-25-1z" fill="#173a59"/>
+    <path d="m556 193 25 1m-25 185 24 1" stroke="#c1a46a" stroke-width="6"/>
+    <path d="m556 383 12 32 12-31" fill="#c1a46a"/>
+    <path d="m564 405 4 10 4-10" fill="#173a59"/>
+    <path d="m560 176 13 1" stroke="#fff" stroke-linecap="round" stroke-opacity=".65" stroke-width="2"/>
+  </g>
+</svg>
